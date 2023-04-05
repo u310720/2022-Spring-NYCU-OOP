@@ -1,0 +1,66 @@
+enter King 99 M
+buy King juice
+buy King coke
+buy King coffee
+buy King bagel
+buy King banana
+buy King apple
+buy King croissant
+enter Queen 18 F
+buy Queen donut
+buy Queen orange
+buy Queen coffee
+buy Queen juice
+buy Queen juice
+enter Leslie 12 F
+buy Leslie apple
+buy Leslie apple
+buy Leslie apple
+buy Leslie apple
+enter Tim 13 M
+buy Tim banana
+open A 20 F junior
+display
+open B 33 M senior
+display
+open C 22 F junior
+display
+queue Tim
+queue King
+queue Leslie
+queue Queen
+display
+enter Liz 22 M
+buy Liz apple
+queue Liz
+display
+enter May 40 F
+buy May juice
+queue May
+display
+checkout C Tim
+checkout B Tim
+enter Frank 33 M
+buy Frank apple
+queue Frank
+display
+enter Bob 33 M
+buy Bob apple
+queue Bob
+display
+enter Gina 31 F
+buy Gina apple
+queue Gina
+display
+close B
+display
+checkout A Tim
+display
+checkout C Queen
+checkout A King
+display
+open d 25 M junior
+open e 25 M junior
+display
+close A
+display

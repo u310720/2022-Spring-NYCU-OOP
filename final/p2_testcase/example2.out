@@ -1,0 +1,76 @@
+King can't buy anymore!
+King can't buy anymore!
+Queen can't buy anymore!
+Leslie can't buy anymore!
+queue: 
+A's counter: 
+queue: 
+A's counter: 
+B's counter: 
+queue: 
+A's counter: 
+B's counter: 
+C's counter: 
+queue: 
+A's counter: Tim King
+B's counter: Leslie Queen
+C's counter: 
+queue: 
+A's counter: Tim King
+B's counter: Leslie Queen Liz
+C's counter: 
+queue: 
+A's counter: Tim King
+B's counter: Leslie Queen Liz
+C's counter: May
+Tim isn't at C's counter!
+Tim isn't at B's counter!
+queue: 
+A's counter: Tim King
+B's counter: Leslie Queen Liz
+C's counter: May Frank
+queue: Bob
+A's counter: Tim King
+B's counter: Leslie Queen Liz
+C's counter: May Frank
+queue: Bob <- Gina
+A's counter: Tim King
+B's counter: Leslie Queen Liz
+C's counter: May Frank
+queue: Leslie <- Queen <- Liz <- Bob <- Gina
+A's counter: Tim King
+C's counter: May Frank
++-------------------------------------------+
+|Name: Tim                                  |
++-------------------------------------------+
+|      item|  quantity|unit price|     total|
+|    banana|         1|      1500|      1500|
+|                         total amount: 1500|
++-------------------------------------------+
+queue: Queen <- Liz <- Bob <- Gina
+A's counter: King Leslie
+C's counter: May Frank
+Queen isn't at C's counter!
++-------------------------------------------+
+|Name: King                                 |
++-------------------------------------------+
+|      item|  quantity|unit price|     total|
+|     bagel|         1|      4500|      4500|
+|    banana|         1|      1500|      1500|
+|    coffee|         1|      4000|      4000|
+|     juice|         1|      5000|      5000|
+|      coke|         1|      3000|      3000|
+|                        total amount: 18000|
++-------------------------------------------+
+queue: Liz <- Bob <- Gina
+A's counter: Leslie Queen
+C's counter: May Frank
+queue: 
+A's counter: Leslie Queen
+C's counter: May Frank
+d's counter: Liz Bob
+e's counter: Gina
+queue: Queen
+C's counter: May Frank
+d's counter: Liz Bob
+e's counter: Gina Leslie

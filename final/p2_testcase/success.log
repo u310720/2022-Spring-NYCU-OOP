@@ -1,0 +1,124 @@
+==========
+0710504
+Wrong
+3a4 > Queen can't buy anymore! 73c74 < queue: Queen --- > queue: Leslie <- Queen 76c77 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+0710888
+Wrong
+32c32 < queue: Bob --- > queue:Bob 36c36 < queue: Bob <- Gina --- > queue:Bob <- Gina 40c40 < queue: Leslie <- Queen <- Liz <- Bob <- Gina --- > queue:Leslie <- Queen <- Liz <- Bob <- Gina 50c50 < queue: Queen <- Liz <- Bob <- Gina --- > queue:Queen <- Liz <- Bob <- Gina 65c65 < queue: Liz <- Bob <- Gina --- > queue:Liz <- Bob <- Gina 73c73 < queue: Queen --- > queue:Queen
+==========
+109101006
+Wrong
+15c15 < A's counter: Tim King --- > A's counter: 17,21c17 < C's counter: < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: --- > C's counter: Tim King 23c19 < A's counter: Tim King --- > A's counter: 25,27c21 < C's counter: May < Tim isn't at C's counter! < Tim isn't at B's counter! --- > C's counter: Tim King 29,33c23 < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob < A's counter: Tim King --- > A's counter: May 35,42c25 < C's counter: May Frank < queue: Bob <- Gina < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Leslie <- Queen <- Liz <- Bob <- Gina < A's counter: Tim King < C's counter: May Frank --- > C's counter: Tim King 50,52c33,52 < queue: Queen <- Liz <- Bob <- Gina < A's counter: King Leslie < C's counter: May Frank --- > Tim isn't at B's counter! > queue: > A's counter: May > B's counter: Leslie Queen Liz > C's counter: King Frank > queue: > A's counter: May Bob > B's counter: Leslie Queen Liz > C's counter: King Frank > queue: Gina > A's counter: May Bob > B's counter: Leslie Queen Liz > C's counter: King Frank > queue: Leslie <- Queen <- Liz <- Gina > A's counter: May Bob > C's counter: King Frank > Tim isn't at A's counter! > queue: Leslie <- Queen <- Liz <- Gina > A's counter: May Bob > C's counter: King Frank 54,76c54,66 < +-------------------------------------------+ < |Name: King | < +-------------------------------------------+ < | item| quantity|unit price| total| < | bagel| 1| 4500| 4500| < | banana| 1| 1500| 1500| < | coffee| 1| 4000| 4000| < | juice| 1| 5000| 5000| < | coke| 1| 3000| 3000| < | total amount: 18000| < +-------------------------------------------+ < queue: Liz <- Bob <- Gina < A's counter: Leslie Queen < C's counter: May Frank < queue: < A's counter: Leslie Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina < queue: Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina Leslie --- > King isn't at A's counter! > queue: Leslie <- Queen <- Liz <- Gina > A's counter: May Bob > C's counter: King Frank > queue: > A's counter: May Bob > C's counter: King Frank > d's counter: Leslie Queen > e's counter: Liz Gina > queue: May <- Bob > C's counter: King Frank > d's counter: Leslie Queen > e's counter: Liz Gina
+==========
+109705003
+Wrong
+73c73 < queue: Queen --- > queue: Leslie <- Queen 76c76 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+110101015
+Correct
+==========
+110101016
+Wrong
+24,25c24,25 < B's counter: Leslie Queen Liz < C's counter: May --- > B's counter: Leslie Queen Liz May > C's counter: 30,32c30,32 < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob --- > B's counter: Leslie Queen Liz May Frank > C's counter: > queue: 34,36c34,36 < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob <- Gina --- > B's counter: Leslie Queen Liz May Frank Bob > C's counter: > queue: 38,40c38,40 < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Leslie <- Queen <- Liz <- Bob <- Gina --- > B's counter: Leslie Queen Liz May Frank Bob Gina > C's counter: > queue: Liz <- May <- Frank <- Bob <- Gina 42c42 < C's counter: May Frank --- > C's counter: Leslie Queen 50,53c50,62 < queue: Queen <- Liz <- Bob <- Gina < A's counter: King Leslie < C's counter: May Frank < Queen isn't at C's counter! --- > queue: > A's counter: King Liz > C's counter: Leslie Queen May Frank Bob Gina > +-------------------------------------------+ > |Name: Queen | > +-------------------------------------------+ > | item| quantity|unit price| total| > | donut| 1| 4000| 4000| > | orange| 1| 2000| 2000| > | coffee| 1| 4000| 4000| > | juice| 1| 5000| 5000| > | total amount: 15000| > +-------------------------------------------+ 65,76c74,85 < queue: Liz <- Bob <- Gina < A's counter: Leslie Queen < C's counter: May Frank < queue: < A's counter: Leslie Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina < queue: Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina Leslie --- > queue: > A's counter: Liz > C's counter: Leslie May Frank Bob Gina > queue: > A's counter: Liz > C's counter: Leslie May Frank Bob Gina > d's counter: > e's counter: > queue: > C's counter: Leslie May Frank Bob Gina Liz > d's counter: > e's counter:
+==========
+110511004
+Wrong
+73c73 < queue: Queen --- > queue: Leslie <- Queen 76c76 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+110511010
+Wrong
+48c48 < | total amount: 1500| --- > | total amount:1500| 63c63 < | total amount: 18000| --- > | total amount:18000| 73c73 < queue: Queen --- > queue: Leslie <- Queen 76c76 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+110511014
+Wrong
+48c48 < | total amount: 1500| --- > | total amount:1500| 63c63 < | total amount: 18000| --- > | total amount:18000|
+==========
+110511019
+Wrong
+73c73 < queue: Queen --- > queue: Leslie <- Queen 76c76 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+110511061
+Wrong
+73c73 < queue: Queen --- > queue: Leslie <- Queen 76c76 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+110511069
+Wrong
+3a4 > Queen can't buy anymore!
+==========
+110511090
+Wrong
+14,76d13 < queue: < A's counter: Tim King < B's counter: Leslie Queen < C's counter: < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May < Tim isn't at C's counter! < Tim isn't at B's counter! < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob <- Gina < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Leslie <- Queen <- Liz <- Bob <- Gina < A's counter: Tim King < C's counter: May Frank < +-------------------------------------------+ < |Name: Tim | < +-------------------------------------------+ < | item| quantity|unit price| total| < | banana| 1| 1500| 1500| < | total amount: 1500| < +-------------------------------------------+ < queue: Queen <- Liz <- Bob <- Gina < A's counter: King Leslie < C's counter: May Frank < Queen isn't at C's counter! < +-------------------------------------------+ < |Name: King | < +-------------------------------------------+ < | item| quantity|unit price| total| < | bagel| 1| 4500| 4500| < | banana| 1| 1500| 1500| < | coffee| 1| 4000| 4000| < | juice| 1| 5000| 5000| < | coke| 1| 3000| 3000| < | total amount: 18000| < +-------------------------------------------+ < queue: Liz <- Bob <- Gina < A's counter: Leslie Queen < C's counter: May Frank < queue: < A's counter: Leslie Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina < queue: Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina Leslie
+==========
+110511098
+Wrong
+3a4 > Queen can't buy anymore! 73c74 < queue: Queen --- > queue: Leslie <- Queen 76c77 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+110511107
+Wrong
+1,3d0 < King can't buy anymore! < King can't buy anymore! < Queen can't buy anymore! 58a56,57 > | croissant| 1| 5000| 5000| > | apple| 1| 1000| 1000| 63c62 < | total amount: 18000| --- > | total amount: 24000|
+==========
+110511131
+Wrong
+73c73 < queue: Queen --- > queue: Leslie <- Queen 76c76 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+110511135
+Wrong
+73c73 < queue: Queen --- > queue: Leslie <- Queen 76c76 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+110511137
+Correct
+==========
+110511153
+Wrong
+4c4 < Leslie can't buy anymore! --- > Queen can't buy anymore! 14,76d13 < queue: < A's counter: Tim King < B's counter: Leslie Queen < C's counter: < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May < Tim isn't at C's counter! < Tim isn't at B's counter! < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob <- Gina < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Leslie <- Queen <- Liz <- Bob <- Gina < A's counter: Tim King < C's counter: May Frank < +-------------------------------------------+ < |Name: Tim | < +-------------------------------------------+ < | item| quantity|unit price| total| < | banana| 1| 1500| 1500| < | total amount: 1500| < +-------------------------------------------+ < queue: Queen <- Liz <- Bob <- Gina < A's counter: King Leslie < C's counter: May Frank < Queen isn't at C's counter! < +-------------------------------------------+ < |Name: King | < +-------------------------------------------+ < | item| quantity|unit price| total| < | bagel| 1| 4500| 4500| < | banana| 1| 1500| 1500| < | coffee| 1| 4000| 4000| < | juice| 1| 5000| 5000| < | coke| 1| 3000| 3000| < | total amount: 18000| < +-------------------------------------------+ < queue: Liz <- Bob <- Gina < A's counter: Leslie Queen < C's counter: May Frank < queue: < A's counter: Leslie Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina < queue: Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina Leslie
+==========
+110511159
+Correct
+==========
+110511168
+Correct
+==========
+110511178
+Wrong
+3c3 < Queen can't buy anymore! --- > King can't buy anymore! 59d58 < | banana| 1| 1500| 1500| 63c62 < | total amount: 18000| --- > | total amount: 16500|
+==========
+110511185
+Wrong
+1,76d0 < King can't buy anymore! < King can't buy anymore! < Queen can't buy anymore! < Leslie can't buy anymore! < queue: < A's counter: < queue: < A's counter: < B's counter: < queue: < A's counter: < B's counter: < C's counter: < queue: < A's counter: Tim King < B's counter: Leslie Queen < C's counter: < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May < Tim isn't at C's counter! < Tim isn't at B's counter! < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob <- Gina < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Leslie <- Queen <- Liz <- Bob <- Gina < A's counter: Tim King < C's counter: May Frank < +-------------------------------------------+ < |Name: Tim | < +-------------------------------------------+ < | item| quantity|unit price| total| < | banana| 1| 1500| 1500| < | total amount: 1500| < +-------------------------------------------+ < queue: Queen <- Liz <- Bob <- Gina < A's counter: King Leslie < C's counter: May Frank < Queen isn't at C's counter! < +-------------------------------------------+ < |Name: King | < +-------------------------------------------+ < | item| quantity|unit price| total| < | bagel| 1| 4500| 4500| < | banana| 1| 1500| 1500| < | coffee| 1| 4000| 4000| < | juice| 1| 5000| 5000| < | coke| 1| 3000| 3000| < | total amount: 18000| < +-------------------------------------------+ < queue: Liz <- Bob <- Gina < A's counter: Leslie Queen < C's counter: May Frank < queue: < A's counter: Leslie Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina < queue: Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina Leslie
+==========
+110511198
+Compile Error!
+
+==========
+110511200
+Wrong
+76c76 < e's counter: Gina Leslie --- > e's counter: Leslie Gina
+==========
+110511218
+Correct
+==========
+110511220
+Wrong
+14,76d13 < queue: < A's counter: Tim King < B's counter: Leslie Queen < C's counter: < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May < Tim isn't at C's counter! < Tim isn't at B's counter! < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob <- Gina < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Leslie <- Queen <- Liz <- Bob <- Gina < A's counter: Tim King < C's counter: May Frank < +-------------------------------------------+ < |Name: Tim | < +-------------------------------------------+ < | item| quantity|unit price| total| < | banana| 1| 1500| 1500| < | total amount: 1500| < +-------------------------------------------+ < queue: Queen <- Liz <- Bob <- Gina < A's counter: King Leslie < C's counter: May Frank < Queen isn't at C's counter! < +-------------------------------------------+ < |Name: King | < +-------------------------------------------+ < | item| quantity|unit price| total| < | bagel| 1| 4500| 4500| < | banana| 1| 1500| 1500| < | coffee| 1| 4000| 4000| < | juice| 1| 5000| 5000| < | coke| 1| 3000| 3000| < | total amount: 18000| < +-------------------------------------------+ < queue: Liz <- Bob <- Gina < A's counter: Leslie Queen < C's counter: May Frank < queue: < A's counter: Leslie Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina < queue: Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina Leslie
+==========
+110511230
+Wrong
+2a3 > King can't buy anymore! 47,48c48,49 < | banana| 1| 1500| 1500| < | total amount: 1500| --- > | banana| 1| 1500| 1500 | > | total amount1500| 50c51 < queue: Queen <- Liz <- Bob <- Gina --- > queue: Leslie <- Queen <- Liz <- Gina 58,63c59,63 < | bagel| 1| 4500| 4500| < | banana| 1| 1500| 1500| < | coffee| 1| 4000| 4000| < | juice| 1| 5000| 5000| < | coke| 1| 3000| 3000| < | total amount: 18000| --- > | bagel| 1| 4500| 4500 | > | coke| 1| 3000| 3000 | > | coffee| 1| 4000| 4000 | > | juice| 1| 5000| 5000 | > | total amoun16500| 65,66c65,66 < queue: Liz <- Bob <- Gina < A's counter: Leslie Queen --- > queue: Leslie <- Queen <- Gina > A's counter: Leslie Leslie 69c69 < A's counter: Leslie Queen --- > A's counter: Leslie Leslie 71c71 < d's counter: Liz Bob --- > d's counter: Leslie Queen 73c73 < queue: Queen --- > queue: Leslie <- Leslie 75,76c75,76 < d's counter: Liz Bob < e's counter: Gina Leslie --- > d's counter: Leslie Queen > e's counter: Gina
+==========
+110511232
+Wrong
+73c73 < queue: Queen --- > queue: Leslie <- Queen 76c76 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+309611077
+Wrong
+25,76d24 < C's counter: May < Tim isn't at C's counter! < Tim isn't at B's counter! < queue: < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Bob <- Gina < A's counter: Tim King < B's counter: Leslie Queen Liz < C's counter: May Frank < queue: Leslie <- Queen <- Liz <- Bob <- Gina < A's counter: Tim King < C's counter: May Frank < +-------------------------------------------+ < |Name: Tim | < +-------------------------------------------+ < | item| quantity|unit price| total| < | banana| 1| 1500| 1500| < | total amount: 1500| < +-------------------------------------------+ < queue: Queen <- Liz <- Bob <- Gina < A's counter: King Leslie < C's counter: May Frank < Queen isn't at C's counter! < +-------------------------------------------+ < |Name: King | < +-------------------------------------------+ < | item| quantity|unit price| total| < | bagel| 1| 4500| 4500| < | banana| 1| 1500| 1500| < | coffee| 1| 4000| 4000| < | juice| 1| 5000| 5000| < | coke| 1| 3000| 3000| < | total amount: 18000| < +-------------------------------------------+ < queue: Liz <- Bob <- Gina < A's counter: Leslie Queen < C's counter: May Frank < queue: < A's counter: Leslie Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina < queue: Queen < C's counter: May Frank < d's counter: Liz Bob < e's counter: Gina Leslie
+==========
+310512022
+Wrong
+73c73 < queue: Queen --- > queue: Leslie <- Queen 76c76 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
+stu101016
+Wrong
+73c73 < queue: Queen --- > queue: Leslie <- Queen 76c76 < e's counter: Gina Leslie --- > e's counter: Gina
+==========
