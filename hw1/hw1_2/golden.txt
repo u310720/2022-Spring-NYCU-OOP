@@ -1,0 +1,26 @@
+[Problem1]
+Aries 800 26 44 11 9 5 0
+Taurus 1000 29 47 1 8 5 0
+Gemini 700 30 40 13 9 4 0
+Cancer 1000 13 47 14 10 2 0
+Leo 700 20 36 12 5 4 0
+WeaponA 5 11 4 5 5
+WeaponB 1 8 3 8 4
+WeaponC 3 10 4 8 3
+WeaponD 2 12 4 8 1
+[Problem2]
+Aries 800 26 44 11 9 5 0
+WeaponA 5 11 4 5 5
+Aries 800 26 44 11 9 5 0
+WeaponA 5 11 4 5 5
+Taurus 1000 29 47 1 8 5 0
+WeaponB 1 8 3 8 4
+Taurus 1000 29 47 1 8 5 0
+WeaponB 1 8 3 8 4
+[Problem3]
+Aries 800 26 44 11 9 5 1
+WeaponA 5 11 4 5 5
+WeaponA 5 11 4 5 4
+[Problem4]
+Aries 48 26 44 11 9 5 2
+Taurus 0 29 47 1 8 5 0
