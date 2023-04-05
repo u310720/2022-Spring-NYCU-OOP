@@ -1,0 +1,36 @@
+2
+_Applicant
+Number 0001
+Name John Wang
+Math 15
+Chinese 15
+English 15
+Science 12
+Society 15
+Total 72/75
+
+_Applicant
+Number 0002
+Name John Wu
+Math 10
+Chinese 10
+English 10
+Science 14
+Society 10
+Total 54/75
+
+2
+_University
+Number 0001
+Name NTU_EE
+Enrollment Limit 88
+
+_University
+Number 0002
+Name NCKU_EE
+Enrollment Limit 75
+
+Chinese Average: 12.5
+Math Average: 12.5
+Science Highest: 14
+English Highest: 15
