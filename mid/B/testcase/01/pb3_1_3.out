@@ -1,0 +1,20 @@
+_Applicant
+Number 0001
+Name John Wang
+Match Result NCKU_EE
+
+_Applicant
+Number 0002
+Name John Wu
+Match Result NCKU_EE
+
+_University
+Number 0001
+Name NTU_EE
+Match Result 
+
+_University
+Number 0002
+Name NCKU_EE
+Match Result 0001 0002 
+
